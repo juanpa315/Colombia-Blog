@@ -1,8 +1,75 @@
-div img{
+div img {
+  width: 100%;
+}
+
+.text-intro h1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.text-intro p {
+  text-align: justify;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-bottom: 50px;
+}
+@media (max-width: 800px) {
+  .text-intro p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #595959;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+footer .about-me {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .about-me h1 {
+  order: -1;
+}
+footer .newsletter {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .newsletter .email-input {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+footer .newsletter .submit-btn {
+  padding: 10px 20px;
+  background-color: #006eff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  footer .newsletter .newsletter {
+    flex-direction: column;
+  }
+  footer .newsletter .email-input {
     width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }
-.text-intro{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-}
+
+/*# sourceMappingURL=style.css.map */
