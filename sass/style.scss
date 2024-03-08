@@ -18,14 +18,14 @@ div img {
 
     @media (max-width: 800px) {
         p {
-            padding-left: 50px; 
+            padding-left: 50px;
             padding-right: 50px;
         }
     }
 
 }
 
-.container{
+.container {
     margin-bottom: 50px;
 }
 
@@ -35,14 +35,14 @@ footer {
     padding: 20px;
     text-align: center;
 
-    .about-me{
+    .about-me {
         margin-top: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
-        h1{
+
+        h1 {
             order: -1;
         }
     }
@@ -74,7 +74,7 @@ footer {
             .newsletter {
                 flex-direction: column;
             }
-        
+
             .email-input {
                 width: 100%;
                 margin-right: 0;
@@ -85,3 +85,51 @@ footer {
 
 }
 
+//Styles medellin.html
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-section {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+
+    .container-img {
+        width: 70%;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .container-text {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #3499cb;
+        color: white;
+        padding: 60px;
+
+        h1 {
+            text-align: center;
+            font-size: 60px;
+            font-weight: 600;
+            margin-bottom: 32px
+        }
+
+        p {
+            text-align: left;
+            font-size: 24px;
+            margin-bottom: 32px;
+        }
+    }
+
+
+}
