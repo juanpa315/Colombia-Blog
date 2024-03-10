@@ -87,9 +87,8 @@ footer {
 
 //Styles medellin.html
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -97,6 +96,7 @@ footer {
     display: flex;
     flex-direction: row;
     height: 500px;
+    margin-bottom: 50px;
 
     .container-img {
         width: 70%;
@@ -131,5 +131,28 @@ footer {
         }
     }
 
+    @media (max-width: 1200px) {
 
+        flex-direction: column;
+        height: auto;
+        max-width: 100%;
+
+        .container-img {
+            width: unset;
+        }
+
+        .container-text {
+            order: -1;
+            width: unset;
+            padding: 40px 25px;
+
+            h1 {
+                font-size: 26px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    }
 }
